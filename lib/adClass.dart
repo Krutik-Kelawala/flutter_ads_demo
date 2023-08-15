@@ -39,4 +39,16 @@ class AdKeyHelper {
       throw new UnsupportedError('Unsupported platform');
     }
   }
+
+  static String get appOpenAdUnitId {
+    if (Platform.isAndroid) {
+      // Add android key here
+      return "ca-app-pub-1568334059582060/9902219487";
+    } else if (Platform.isIOS) {
+      // ADD ios key here
+      return "ca-app-pub-1568334059582060/9902219487";
+    } else {
+      throw new UnsupportedError('Unsupported platform');
+    }
+  }
 }

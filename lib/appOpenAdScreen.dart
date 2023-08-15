@@ -12,7 +12,7 @@ class appOpenAdScreen extends StatefulWidget {
 class _appOpenAdScreenState extends State<appOpenAdScreen> {
   bool isLoaded = false;
   AppOpenAd? openAppAd;
-  var rewardAdUnitId = "ca-app-pub-3940256099942544/5224354917"; // TODO use this for testing
+  var rewardAdUnitId = "ca-app-pub-3940256099942544/3419835294"; // TODO use this for testing
 
   @override
   void initState() {
